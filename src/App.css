@@ -1,0 +1,21 @@
+.btn {
+  background-color: brown;
+  border-radius: 5px;
+  border: none;
+  color: #fff;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: 500;
+  outline: none;
+  padding: 5px 15px;
+  text-transform: capitalize;
+  align-items: center;
+}
+
+.score {
+  padding: 5px 20px;
+  font-size: 16px;
+  font-weight: 500;
+  background-color: #eee;
+  border-radius: 5px;
+}

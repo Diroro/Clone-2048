@@ -1,0 +1,16 @@
+.main {
+    align-items: center;
+    display: flex;
+    height: 100%;
+    justify-content: center;
+    width: 100%;
+}
+  
+.content{
+    min-height: 600px;
+    width: 600px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+  

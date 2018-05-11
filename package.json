@@ -1,0 +1,29 @@
+{
+  "name": "clone-2048",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "lodash": "^4.17.5",
+    "matrix-rotate": "0.0.2",
+    "react": "^16.3.1",
+    "react-dom": "^16.3.1",
+    "react-scripts-ts": "2.15.1",
+    "styled-components": "^3.2.5"
+  },
+  "scripts": {
+    "start": "react-app-rewired start --scripts-version react-scripts-ts start",
+    "build": "react-app-rewired build --scripts-version react-scripts-ts build",
+    "test": "react-app-rewired test --scripts-version react-scripts-ts test --env=jsdom",
+    "eject": "react-scripts-ts eject"
+  },
+  "devDependencies": {
+    "@types/jest": "^22.2.3",
+    "@types/node": "^9.6.5",
+    "@types/react": "^16.3.10",
+    "@types/react-dom": "^16.0.5",
+    "react-app-rewired": "^1.5.0",
+    "react-redux": "^5.0.7",
+    "redux": "^4.0.0",
+    "typescript": "^2.8.1"
+  }
+}

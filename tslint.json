@@ -1,0 +1,25 @@
+{
+  "extends": [
+    "tslint:recommended",
+    "tslint-react",
+    "tslint-config-prettier"
+  ],
+  "linterOptions": {
+    "exclude": [
+      "config/**/*.js",
+      "node_modules/**/*.ts"
+    ]
+  },
+  "rules": {
+    "object-literal-sort-keys": false,
+    "ordered-imports": false,
+    "interface-name": false,
+    "no-console": false,
+    "no-null-keyword": false,
+    "no-string-literal": false
+  },
+  "jsRules": {
+    "object-literal-sort-keys": false,
+    "ordered-imports": false
+  }
+}
